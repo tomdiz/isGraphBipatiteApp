@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B041BBB3295BD76D0090422D /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B041BBB2295BD76D0090422D /* GraphView.swift */; };
+		B07251D3295B7DB000755820 /* isGraphBipatiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07251D2295B7DB000755820 /* isGraphBipatiteApp.swift */; };
+		B07251D5295B7DB000755820 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07251D4295B7DB000755820 /* ContentView.swift */; };
+		B07251D7295B7DB200755820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07251D6295B7DB200755820 /* Assets.xcassets */; };
+		B07251DB295B7DB200755820 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07251DA295B7DB200755820 /* Preview Assets.xcassets */; };
+		B07251E5295B7DB200755820 /* isGraphBipatiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07251E4295B7DB200755820 /* isGraphBipatiteTests.swift */; };
+		B07251EF295B7DB200755820 /* isGraphBipatiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07251EE295B7DB200755820 /* isGraphBipatiteUITests.swift */; };
+		B07251F1295B7DB200755820 /* isGraphBipatiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07251F0295B7DB200755820 /* isGraphBipatiteUITestsLaunchTests.swift */; };
+		B0725205295BCA4100755820 /* graphsData.json in Resources */ = {isa = PBXBuildFile; fileRef = B0725204295BCA4100755820 /* graphsData.json */; };
+		B0725208295BCAD400755820 /* GraphData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0725207295BCAD400755820 /* GraphData.swift */; };
+		B072520A295BCD8900755820 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0725209295BCD8900755820 /* ModelData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B07251E1295B7DB200755820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07251C7295B7DB000755820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07251CE295B7DB000755820;
+			remoteInfo = isGraphBipatite;
+		};
+		B07251EB295B7DB200755820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07251C7295B7DB000755820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07251CE295B7DB000755820;
+			remoteInfo = isGraphBipatite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B028E169295BE74200AA42F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B041BBB2295BD76D0090422D /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		B07251CF295B7DB000755820 /* isGraphBipatite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isGraphBipatite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07251D2295B7DB000755820 /* isGraphBipatiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isGraphBipatiteApp.swift; sourceTree = "<group>"; };
+		B07251D4295B7DB000755820 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B07251D6295B7DB200755820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B07251D8295B7DB200755820 /* isGraphBipatite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = isGraphBipatite.entitlements; sourceTree = "<group>"; };
+		B07251DA295B7DB200755820 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B07251E0295B7DB200755820 /* isGraphBipatiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isGraphBipatiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07251E4295B7DB200755820 /* isGraphBipatiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isGraphBipatiteTests.swift; sourceTree = "<group>"; };
+		B07251EA295B7DB200755820 /* isGraphBipatiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isGraphBipatiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07251EE295B7DB200755820 /* isGraphBipatiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isGraphBipatiteUITests.swift; sourceTree = "<group>"; };
+		B07251F0295B7DB200755820 /* isGraphBipatiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isGraphBipatiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0725204295BCA4100755820 /* graphsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = graphsData.json; sourceTree = "<group>"; };
+		B0725207295BCAD400755820 /* GraphData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphData.swift; sourceTree = "<group>"; };
+		B0725209295BCD8900755820 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B07251CC295B7DB000755820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07251DD295B7DB200755820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07251E7295B7DB200755820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B07251C6295B7DB000755820 = {
+			isa = PBXGroup;
+			children = (
+				B07251D1295B7DB000755820 /* isGraphBipatite */,
+				B07251E3295B7DB200755820 /* isGraphBipatiteTests */,
+				B07251ED295B7DB200755820 /* isGraphBipatiteUITests */,
+				B07251D0295B7DB000755820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B07251D0295B7DB000755820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B07251CF295B7DB000755820 /* isGraphBipatite.app */,
+				B07251E0295B7DB200755820 /* isGraphBipatiteTests.xctest */,
+				B07251EA295B7DB200755820 /* isGraphBipatiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B07251D1295B7DB000755820 /* isGraphBipatite */ = {
+			isa = PBXGroup;
+			children = (
+				B028E169295BE74200AA42F6 /* Info.plist */,
+				B07251D2295B7DB000755820 /* isGraphBipatiteApp.swift */,
+				B072520B295BD6B800755820 /* Views */,
+				B0725206295BCABD00755820 /* Models */,
+				B0725203295BCA2200755820 /* Resources */,
+				B07251D6295B7DB200755820 /* Assets.xcassets */,
+				B07251D8295B7DB200755820 /* isGraphBipatite.entitlements */,
+				B07251D9295B7DB200755820 /* Preview Content */,
+			);
+			path = isGraphBipatite;
+			sourceTree = "<group>";
+		};
+		B07251D9295B7DB200755820 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B07251DA295B7DB200755820 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B07251E3295B7DB200755820 /* isGraphBipatiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				B07251E4295B7DB200755820 /* isGraphBipatiteTests.swift */,
+			);
+			path = isGraphBipatiteTests;
+			sourceTree = "<group>";
+		};
+		B07251ED295B7DB200755820 /* isGraphBipatiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B07251EE295B7DB200755820 /* isGraphBipatiteUITests.swift */,
+				B07251F0295B7DB200755820 /* isGraphBipatiteUITestsLaunchTests.swift */,
+			);
+			path = isGraphBipatiteUITests;
+			sourceTree = "<group>";
+		};
+		B0725203295BCA2200755820 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0725204295BCA4100755820 /* graphsData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0725206295BCABD00755820 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0725207295BCAD400755820 /* GraphData.swift */,
+				B0725209295BCD8900755820 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B072520B295BD6B800755820 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B07251D4295B7DB000755820 /* ContentView.swift */,
+				B041BBB2295BD76D0090422D /* GraphView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B07251CE295B7DB000755820 /* isGraphBipatite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07251F4295B7DB200755820 /* Build configuration list for PBXNativeTarget "isGraphBipatite" */;
+			buildPhases = (
+				B07251CB295B7DB000755820 /* Sources */,
+				B07251CC295B7DB000755820 /* Frameworks */,
+				B07251CD295B7DB000755820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = isGraphBipatite;
+			productName = isGraphBipatite;
+			productReference = B07251CF295B7DB000755820 /* isGraphBipatite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B07251DF295B7DB200755820 /* isGraphBipatiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07251F7295B7DB200755820 /* Build configuration list for PBXNativeTarget "isGraphBipatiteTests" */;
+			buildPhases = (
+				B07251DC295B7DB200755820 /* Sources */,
+				B07251DD295B7DB200755820 /* Frameworks */,
+				B07251DE295B7DB200755820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07251E2295B7DB200755820 /* PBXTargetDependency */,
+			);
+			name = isGraphBipatiteTests;
+			productName = isGraphBipatiteTests;
+			productReference = B07251E0295B7DB200755820 /* isGraphBipatiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B07251E9295B7DB200755820 /* isGraphBipatiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07251FA295B7DB200755820 /* Build configuration list for PBXNativeTarget "isGraphBipatiteUITests" */;
+			buildPhases = (
+				B07251E6295B7DB200755820 /* Sources */,
+				B07251E7295B7DB200755820 /* Frameworks */,
+				B07251E8295B7DB200755820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07251EC295B7DB200755820 /* PBXTargetDependency */,
+			);
+			name = isGraphBipatiteUITests;
+			productName = isGraphBipatiteUITests;
+			productReference = B07251EA295B7DB200755820 /* isGraphBipatiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B07251C7295B7DB000755820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B07251CE295B7DB000755820 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					B07251DF295B7DB200755820 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B07251CE295B7DB000755820;
+					};
+					B07251E9295B7DB200755820 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B07251CE295B7DB000755820;
+					};
+				};
+			};
+			buildConfigurationList = B07251CA295B7DB000755820 /* Build configuration list for PBXProject "isGraphBipatite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B07251C6295B7DB000755820;
+			productRefGroup = B07251D0295B7DB000755820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B07251CE295B7DB000755820 /* isGraphBipatite */,
+				B07251DF295B7DB200755820 /* isGraphBipatiteTests */,
+				B07251E9295B7DB200755820 /* isGraphBipatiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B07251CD295B7DB000755820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07251DB295B7DB200755820 /* Preview Assets.xcassets in Resources */,
+				B0725205295BCA4100755820 /* graphsData.json in Resources */,
+				B07251D7295B7DB200755820 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07251DE295B7DB200755820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07251E8295B7DB200755820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B07251CB295B7DB000755820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0725208295BCAD400755820 /* GraphData.swift in Sources */,
+				B07251D5295B7DB000755820 /* ContentView.swift in Sources */,
+				B072520A295BCD8900755820 /* ModelData.swift in Sources */,
+				B07251D3295B7DB000755820 /* isGraphBipatiteApp.swift in Sources */,
+				B041BBB3295BD76D0090422D /* GraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07251DC295B7DB200755820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07251E5295B7DB200755820 /* isGraphBipatiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07251E6295B7DB200755820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07251EF295B7DB200755820 /* isGraphBipatiteUITests.swift in Sources */,
+				B07251F1295B7DB200755820 /* isGraphBipatiteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B07251E2295B7DB200755820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07251CE295B7DB000755820 /* isGraphBipatite */;
+			targetProxy = B07251E1295B7DB200755820 /* PBXContainerItemProxy */;
+		};
+		B07251EC295B7DB200755820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07251CE295B7DB000755820 /* isGraphBipatite */;
+			targetProxy = B07251EB295B7DB200755820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B07251F2295B7DB200755820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B07251F3295B7DB200755820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B07251F5295B7DB200755820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = isGraphBipatite/isGraphBipatite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"isGraphBipatite/Preview Content\"";
+				DEVELOPMENT_TEAM = F7H3HU558Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = isGraphBipatite/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virgilsoftware.isGraphBipatite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B07251F6295B7DB200755820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = isGraphBipatite/isGraphBipatite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"isGraphBipatite/Preview Content\"";
+				DEVELOPMENT_TEAM = F7H3HU558Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = isGraphBipatite/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virgilsoftware.isGraphBipatite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B07251F8295B7DB200755820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7H3HU558Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virgilsoftware.isGraphBipatiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/isGraphBipatite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/isGraphBipatite";
+			};
+			name = Debug;
+		};
+		B07251F9295B7DB200755820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7H3HU558Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virgilsoftware.isGraphBipatiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/isGraphBipatite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/isGraphBipatite";
+			};
+			name = Release;
+		};
+		B07251FB295B7DB200755820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7H3HU558Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virgilsoftware.isGraphBipatiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = isGraphBipatite;
+			};
+			name = Debug;
+		};
+		B07251FC295B7DB200755820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7H3HU558Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virgilsoftware.isGraphBipatiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = isGraphBipatite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B07251CA295B7DB000755820 /* Build configuration list for PBXProject "isGraphBipatite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07251F2295B7DB200755820 /* Debug */,
+				B07251F3295B7DB200755820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07251F4295B7DB200755820 /* Build configuration list for PBXNativeTarget "isGraphBipatite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07251F5295B7DB200755820 /* Debug */,
+				B07251F6295B7DB200755820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07251F7295B7DB200755820 /* Build configuration list for PBXNativeTarget "isGraphBipatiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07251F8295B7DB200755820 /* Debug */,
+				B07251F9295B7DB200755820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07251FA295B7DB200755820 /* Build configuration list for PBXNativeTarget "isGraphBipatiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07251FB295B7DB200755820 /* Debug */,
+				B07251FC295B7DB200755820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B07251C7295B7DB000755820 /* Project object */;
+}
