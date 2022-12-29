@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6035F1F6681AC5A19CDF402C /* Pods_isGraphBipatite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A1C73BAF248D0D47391FD5 /* Pods_isGraphBipatite.framework */; };
 		B041BBB3295BD76D0090422D /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B041BBB2295BD76D0090422D /* GraphView.swift */; };
+		B0485F57295DBCB30023153B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0485F56295DBCB30023153B /* GoogleService-Info.plist */; };
+		B0485F5A295DBDB50023153B /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = B0485F59295DBDB50023153B /* FirebaseCrashlytics */; };
+		B0485F5E295E059C0023153B /* ReachabililtyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0485F5D295E059C0023153B /* ReachabililtyHelper.swift */; };
+		B0485F61295E062D0023153B /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = B0485F60295E062D0023153B /* Reachability */; };
 		B07251D3295B7DB000755820 /* isGraphBipatiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07251D2295B7DB000755820 /* isGraphBipatiteApp.swift */; };
 		B07251D5295B7DB000755820 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07251D4295B7DB000755820 /* ContentView.swift */; };
 		B07251D7295B7DB200755820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07251D6295B7DB200755820 /* Assets.xcassets */; };
@@ -38,8 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91A1C73BAF248D0D47391FD5 /* Pods_isGraphBipatite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_isGraphBipatite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95873BD7B4C04AE924A67AE /* Pods-isGraphBipatite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isGraphBipatite.release.xcconfig"; path = "Target Support Files/Pods-isGraphBipatite/Pods-isGraphBipatite.release.xcconfig"; sourceTree = "<group>"; };
 		B028E169295BE74200AA42F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B041BBB2295BD76D0090422D /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		B0485F56295DBCB30023153B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0485F5D295E059C0023153B /* ReachabililtyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabililtyHelper.swift; sourceTree = "<group>"; };
 		B07251CF295B7DB000755820 /* isGraphBipatite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isGraphBipatite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07251D2295B7DB000755820 /* isGraphBipatiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isGraphBipatiteApp.swift; sourceTree = "<group>"; };
 		B07251D4295B7DB000755820 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +63,7 @@
 		B0725204295BCA4100755820 /* graphsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = graphsData.json; sourceTree = "<group>"; };
 		B0725207295BCAD400755820 /* GraphData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphData.swift; sourceTree = "<group>"; };
 		B0725209295BCD8900755820 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		C24E0E97B129E8988950F1E5 /* Pods-isGraphBipatite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isGraphBipatite.debug.xcconfig"; path = "Target Support Files/Pods-isGraphBipatite/Pods-isGraphBipatite.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6035F1F6681AC5A19CDF402C /* Pods_isGraphBipatite.framework in Frameworks */,
+				B0485F61295E062D0023153B /* Reachability in Frameworks */,
+				B0485F5A295DBDB50023153B /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C88B97F2EED5F08415E6899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91A1C73BAF248D0D47391FD5 /* Pods_isGraphBipatite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		854C39F446C699AA6679A624 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C24E0E97B129E8988950F1E5 /* Pods-isGraphBipatite.debug.xcconfig */,
+				A95873BD7B4C04AE924A67AE /* Pods-isGraphBipatite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0485F5C295E05890023153B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B0485F5D295E059C0023153B /* ReachabililtyHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		B07251C6295B7DB000755820 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +126,8 @@
 				B07251E3295B7DB200755820 /* isGraphBipatiteTests */,
 				B07251ED295B7DB200755820 /* isGraphBipatiteUITests */,
 				B07251D0295B7DB000755820 /* Products */,
+				854C39F446C699AA6679A624 /* Pods */,
+				6C88B97F2EED5F08415E6899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,8 +144,10 @@
 		B07251D1295B7DB000755820 /* isGraphBipatite */ = {
 			isa = PBXGroup;
 			children = (
+				B0485F56295DBCB30023153B /* GoogleService-Info.plist */,
 				B028E169295BE74200AA42F6 /* Info.plist */,
 				B07251D2295B7DB000755820 /* isGraphBipatiteApp.swift */,
+				B0485F5C295E05890023153B /* Helpers */,
 				B072520B295BD6B800755820 /* Views */,
 				B0725206295BCABD00755820 /* Models */,
 				B0725203295BCA2200755820 /* Resources */,
@@ -174,15 +216,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B07251F4295B7DB200755820 /* Build configuration list for PBXNativeTarget "isGraphBipatite" */;
 			buildPhases = (
+				930CA3E6BD08449060338D5A /* [CP] Check Pods Manifest.lock */,
 				B07251CB295B7DB000755820 /* Sources */,
 				B07251CC295B7DB000755820 /* Frameworks */,
 				B07251CD295B7DB000755820 /* Resources */,
+				F3C5AC610F5679BE1EC5878C /* [CP] Embed Pods Frameworks */,
+				B0485F5B295DBFA00023153B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = isGraphBipatite;
+			packageProductDependencies = (
+				B0485F59295DBDB50023153B /* FirebaseCrashlytics */,
+				B0485F60295E062D0023153B /* Reachability */,
+			);
 			productName = isGraphBipatite;
 			productReference = B07251CF295B7DB000755820 /* isGraphBipatite.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +305,10 @@
 				Base,
 			);
 			mainGroup = B07251C6295B7DB000755820;
+			packageReferences = (
+				B0485F58295DBDB50023153B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B0485F5F295E062D0023153B /* XCRemoteSwiftPackageReference "Reachability" */,
+			);
 			productRefGroup = B07251D0295B7DB000755820 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -273,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B07251DB295B7DB200755820 /* Preview Assets.xcassets in Resources */,
+				B0485F57295DBCB30023153B /* GoogleService-Info.plist in Resources */,
 				B0725205295BCA4100755820 /* graphsData.json in Resources */,
 				B07251D7295B7DB200755820 /* Assets.xcassets in Resources */,
 			);
@@ -294,6 +348,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		930CA3E6BD08449060338D5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-isGraphBipatite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0485F5B295DBFA00023153B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${BUILD_DIR%Build/*}SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\n\n";
+		};
+		F3C5AC610F5679BE1EC5878C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-isGraphBipatite/Pods-isGraphBipatite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-isGraphBipatite/Pods-isGraphBipatite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-isGraphBipatite/Pods-isGraphBipatite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B07251CB295B7DB000755820 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -302,6 +417,7 @@
 				B0725208295BCAD400755820 /* GraphData.swift in Sources */,
 				B07251D5295B7DB000755820 /* ContentView.swift in Sources */,
 				B072520A295BCD8900755820 /* ModelData.swift in Sources */,
+				B0485F5E295E059C0023153B /* ReachabililtyHelper.swift in Sources */,
 				B07251D3295B7DB000755820 /* isGraphBipatiteApp.swift in Sources */,
 				B041BBB3295BD76D0090422D /* GraphView.swift in Sources */,
 			);
@@ -373,7 +489,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -451,6 +567,7 @@
 		};
 		B07251F5295B7DB200755820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24E0E97B129E8988950F1E5 /* Pods-isGraphBipatite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +581,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = isGraphBipatite/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = isGraphBipatite;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -472,8 +591,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -491,6 +610,7 @@
 		};
 		B07251F6295B7DB200755820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A95873BD7B4C04AE924A67AE /* Pods-isGraphBipatite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +624,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = isGraphBipatite/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = isGraphBipatite;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -512,8 +634,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -658,6 +780,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0485F58295DBDB50023153B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		B0485F5F295E062D0023153B /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0485F59295DBDB50023153B /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0485F58295DBDB50023153B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		B0485F60295E062D0023153B /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0485F5F295E062D0023153B /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B07251C7295B7DB000755820 /* Project object */;
 }
