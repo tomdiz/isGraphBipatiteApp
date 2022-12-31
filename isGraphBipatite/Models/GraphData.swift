@@ -8,6 +8,8 @@
 import Foundation
 
 /*
+ Depth First Search Algorithm using 2 colors to figure out if bipartite graph.
+ 
  Use two colors to color the graph and see if there are any adjacent nodes having the same color.
  
  Initialize a color[] array for each node. Here are three states for colors[] array:
