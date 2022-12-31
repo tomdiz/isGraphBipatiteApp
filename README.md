@@ -10,8 +10,8 @@ SwiftUI MVVM application using combine to see if a graph is bipartite.
 ReachabililtyHelper.swift - used for Crashlytics recording and sending message to server
 
 ### Models/
-GraphData.swift - Graph data model and isBipartite testing code on that model type.
-ModelData.swift - Standard model data. class to load data from all models (only one here). Loads data from JSON file for now.
+GraphData.swift - Graph data model and isBipartite testing code for the model type.
+ModelData.swift - Standard model data class to load data from all models (only graph model). Loads data from JSON file for now.
 
 ### Resources/
 JSON file of Graph data. Array of vertices for each node
