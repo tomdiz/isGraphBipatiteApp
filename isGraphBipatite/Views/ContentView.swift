@@ -18,12 +18,12 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            Button("Crash") {
-                BacktraceClient.shared?.send(attachmentPaths: []) { (result) in
-                    print("ContentView:Button:\(result)")
-                }
-                fatalError("Crash was triggered")
-            }
+//            Button("Crash") {
+//                BacktraceClient.shared?.send(attachmentPaths: []) { (result) in
+//                    print("ContentView:Button:\(result)")
+//                }
+//                fatalError("Crash was triggered")
+//            }
             List {
                 ForEach(allGraphs) { graph in
                     NavigationLink {
