@@ -4,19 +4,19 @@ SwiftUI MVVM application using combine to see if a graph is bipartite.
 
 ## Application Structure
 
-###isGraphBipatite/
+### isGraphBipatite/
 
-###Helpers/
+### Helpers/
 ReachabililtyHelper.swift - used for Crashlytics recording and sending message to server
 
-###Models/
+### Models/
 GraphData.swift - Graph data model and isBipartite testing code on that model type.
 ModelData.swift - Standard model data. class to load data from all models (only one here). Loads data from JSON file for now.
 
-###Resources/
+### Resources/
 JSON file of Graph data. Array of vertices for each node
 
-###Views/
+### Views/
 ContentView.swift - Main List view of Graphs from JSON file and test results.
 GraphView.swift - Detail view of list view contents
 
