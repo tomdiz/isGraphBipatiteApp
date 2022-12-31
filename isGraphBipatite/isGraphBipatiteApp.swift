@@ -29,7 +29,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
         // https://github.com/backtrace-labs/backtrace-cocoa
         // https://docs.saucelabs.com/error-reporting/platform-integrations/ios/setup/
-        let backtraceCredentials = BacktraceCredentials(endpoint: URL(string: "https://virgilsoftware.sp.backtrace.io:6098")!, token: "a685a3f03bff73e2c51d79e5418ef8514f0c92fad7b2444f96f3eeaf8b359fef")
+        let backtraceCredentials = BacktraceCredentials(endpoint: URL(string: "https://virgilsoftware.sp.backtrace.io:6098")!, token: "")
 
         let backtraceDatabaseSettings = BacktraceDatabaseSettings()
         backtraceDatabaseSettings.maxRecordCount = 10
@@ -42,7 +42,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         BacktraceClient.shared?.attributes = ["foo": "bar", "testing": true]
         BacktraceClient.shared?.attachments.append(fileUrl)
         BacktraceClient.shared?.delegate = self
-        
+
         do {
             try throwingFunc()
         } catch {
@@ -51,7 +51,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
             }
         }
 
-        BacktraceClient.shared?.loggingDestinations = [BacktraceBaseDestination(level: .debug)]
+        //BacktraceClient.shared?.loggingDestinations = [BacktraceBaseDestination(level: .debug)]
+        BacktraceClient.shared?.loggingDestinations = [BacktraceFancyConsoleDestination(level: .debug)]
 
         // Enable error free metrics https://docs.saucelabs.com/error-reporting/web-console/overview/#stability-metrics-widgets
         BacktraceClient.shared?.metrics.enable(settings: BacktraceMetricsSettings())
@@ -140,7 +141,7 @@ struct isGraphBipatiteApp: App {
             "UserID": "Jane Smith",
         ]
         let error = NSError(domain: NSURLErrorDomain, code: -1001, userInfo: userInfo)
-        Crashlytics.crashlytics().record(error: error)
+        //Crashlytics.crashlytics().record(error: error)
     }
 
     func setCustomValues() {
