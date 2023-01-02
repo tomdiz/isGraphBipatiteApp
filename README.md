@@ -1,6 +1,7 @@
 # isGraphBipatiteApp
 
-SwiftUI MVVM application using combine to see if a graph is bipartite.
+SwiftUI MVVM application using combine to see if a graph is bipartite. After cloning you will need to run 'pod install'
+
 
 ## Application Structure
 
@@ -33,4 +34,4 @@ https://bracktrace.io
 You will need to add your subdomain and token to isGraphBipatiteApp.swift line 32
 
 
-To install Crashlytics you need a GoogleService-Info.plist added to the project. You can get this file when you create a test account at Firebase website. 
+To install Crashlytics you need a 'GoogleService-Info.plist' added to the project. You can get this file when you create a test account at Firebase website. 
