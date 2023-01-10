@@ -26,7 +26,7 @@ import Foundation
  
  Basic DFS using Stack algorithm below:
  
- The depth-first search or DFS algorithm traverses or explores data structures, such as trees and graphs. The algorithm starts at the root node (in the case of a graph, you can use any random node as the root node) and examines each branch as far as possible before backtracking. When a dead-end occurs in any iteration, the Depth First Search (DFS) method traverses a network in a deathward motion and uses a stack data structure to remember to acquire the next vertex to start a search.
+ The depth-first search or DFS algorithm traverses or explores data structures, such as trees and graphs. The algorithm starts at the root node (in the case of a graph, you can use any random node as the root node) and examines each branch as far as possible before backtracking. When a dead-end occurs in any iteration, the Depth First Search (DFS) method traverses a network in a depthward motion and uses a stack data structure to remember to acquire the next vertex to start a search.
  */
 
 struct GraphData: Codable, Hashable, Identifiable {
